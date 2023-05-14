@@ -17,14 +17,14 @@ public class Array2 {
                 "Декабрь"
         };
         String result = "";
-        for (int i = 0; i< month.length; i++){
-            result += month[i];
-            if (i == month.length-1) {
-                result +=" .";
-            } else {
-                result +=",";
-            }
-        }
+       for (int i =0; i< month.length; i++) {
+           result += month[i];
+           if (i == month.length-1) {
+               result += ".";
+           } else  {
+               result += ", ";
+           }
+       }
 
         System.out.println(result);
 
